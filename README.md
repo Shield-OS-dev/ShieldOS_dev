@@ -1,66 +1,64 @@
 # ShieldOS
 
-Decentralized Personal Security Operating System built on Solana. Designed to consolidate secure communication, storage, identity, and AI-driven protection into a single encrypted environment.
+A decentralized personal security operating system built on Solana. ShieldOS unifies encrypted communication, private storage, identity, and AI-driven protection into one secure dashboard.
 
-## Focus
+## Overview
 
-- Wallet-based authentication  
-- End-to-end encrypted modules  
-- Private communication and storage  
-- Minimal, reliable, audit-friendly architecture  
-- Zero unnecessary telemetry  
+ShieldOS provides a minimal, privacy-focused architecture for users who need reliable encrypted tools without relying on traditional Web2 platforms.  
+All modules authenticate through the wallet and operate with client-side encryption.
 
 ## Core Modules
 
 Shield Mail  
-Encrypted mail with aliasing and spam isolation.
+Encrypted communication with alias support and isolation layers.
 
 Shield Drive  
-Encrypted file storage with controlled access and shareable signatures.
+Secure file storage with controlled access and signed share permissions.
 
 Shield Vault  
-Private password and secrets manager with client-side encryption.
+Password and secret manager with local encryption and deterministic recovery flows.
 
 Shield Chat  
-Private messaging layer with burner identity support.
+Private messaging with identity masking, burner profiles, and protected routing.
 
 ShieldID  
-Identity and permission layer optimized for selective disclosure.
+Permission and identity layer designed for selective disclosure and ZK-friendly workflows.
 
 AI Guardian  
-Security-focused AI assistant operating on protected data only.
+Security-oriented AI system operating on protected data with strict privacy boundaries.
 
-## Architecture Overview
+## Architecture
 
 On-chain (Solana)  
-Identity primitives, access control logic, optional payment rails.
+Identity primitives, access control logic, audit trails, and optional payment flows.
 
-Off-chain (Encrypted Services)  
-Mail, drive, vault, and messaging with client-side crypto.
+Off-chain  
+Encrypted mail, drive, vault, and messaging services with strictly client-side cryptography.
 
-Client Layer  
-Unified dashboard, minimal UI, deterministic interactions, wallet login only.
+Client  
+Unified dashboard, minimal interface, deterministic components, and wallet-based login.
 
-## Roadmap Snapshot
+## Roadmap
 
 Phase 1  
-Dashboard foundation, wallet auth, encryption layer, early modules.
+Dashboard foundation, authentication, encryption baseline, initial modules.
 
 Phase 2  
-Hardening privacy features, secure contacts, AI Guardian integration.
+Privacy hardening, secure contacts, AI Guardian integration.
 
 Phase 3  
-Cross-tooling integrations, external identity support, expanded encrypted services.
+Ecosystem integrations, extended encrypted services, identity expansion.
 
 ## Development Principles
 
-- Privacy-first engineering  
-- Minimal attack surface  
-- Clean cryptography choices backed by documentation  
-- No bloat, no dark patterns  
-- Developer-friendly codebase structure  
+- Privacy-focused engineering
+- Minimal and auditable designs
+- Strong cryptography with documented reasoning
+- Zero telemetry and zero data harvesting
+- Developer-first code organization
 
 ## Links
 
-Website: https://www.shieldos.xyz/   
-X: (https://x.com/shield_os)
+Website: https://www.shieldos.xyz/  
+DApp: https://app.shieldos.xyz/  
+X: https://x.com/shield_os

@@ -1,0 +1,142 @@
+# ShieldOS Privacy Policy
+_Last updated: December 2025_
+
+ShieldOS is a privacy-first security operating system built on decentralized technologies.  
+This Privacy Policy explains how ShieldOS handles, stores, and protects user data across all modules of the platform.
+
+ShieldOS is designed with one principle: **your data belongs to you**.  
+All sensitive information is encrypted, non-custodial, and never shared with third parties.
+
+---
+
+## 1. Data We Do Not Collect
+ShieldOS does **not** collect, store, or process the following information:
+
+- No personal identity (name, address, nationality, phone)
+- No KYC or identity documents
+- No IP address tracking
+- No device analytics
+- No email or contact information
+- No server-side behavioral tracking
+- No location-based tracking
+- No cloud-stored sensitive information
+
+ShieldOS operates with **data minimization** and **local-first encryption** by default.
+
+---
+
+## 2. Data We Handle Locally (Client-Side Only)
+ShieldOS may store the following **locally** on your device, fully encrypted:
+
+- User preferences  
+- Session states  
+- Generated Solana wallet keys (optional modules)  
+- Encrypted vault data  
+- Authentication metadata (username + PIN, never sent to server)
+
+All local data is protected using:
+- **AES-256-GCM encryption**
+- **Wallet-derived encryption keys**
+- **Zero-Knowledge (ZK) security model**
+
+ShieldOS servers have **no ability** to decrypt or access this data.
+
+---
+
+## 3. Wallet & Authentication
+ShieldOS uses **non-custodial wallet-based authentication**.
+
+- User wallets are generated client-side.  
+- ShieldOS never stores private keys or seed phrases.  
+- Authentication is cryptographic and self-custodied.
+
+You remain the sole owner of your wallet and all associated data.
+
+---
+
+## 4. Communication & Encryption
+All communication modules (chat, scans, vault sync, etc.) use:
+
+- **End-to-End Encryption (E2EE)**
+- **Peer-to-Peer communication (P2P) where available**
+- **Zero-Knowledge verification for certain actions**
+
+ShieldOS, its servers, and third parties cannot access message content or encrypted records.
+
+---
+
+## 5. Third-Party Services
+ShieldOS does **not** use:
+
+- Advertising networks  
+- Analytics trackers  
+- Behavioral profiling tools  
+- Social media pixels  
+- Reselling or data-sharing agreements  
+
+Any optional integrations (e.g., IPFS, Arweave) are used **only for encrypted user-owned storage**.
+
+---
+
+## 6. Data Sharing & Reselling
+We **never**:
+
+- Sell user data  
+- Rent or share data with advertisers  
+- Monetize analytics  
+- Share sensitive information with third parties  
+
+Because ShieldOS does not store or track personal data, there is nothing to resell or expose.
+
+---
+
+## 7. Compliance
+ShieldOS follows modern privacy frameworks:
+
+- **GDPR-aligned data minimization**
+- **User sovereignty & self-custody principles**
+- **Zero-knowledge privacy standards**
+- **Decentralized identity (DID) best practices**
+
+ShieldOS is not subject to mandatory KYC requirements as it does not act as a custodian.
+
+---
+
+## 8. User Rights
+Because ShieldOS stores no personal data, you inherently retain:
+
+- Full ownership of your information  
+- Ability to delete all local encrypted data anytime  
+- Ability to rotate wallets, PINs, or credentials  
+- Right to remain anonymous  
+
+No request process is needed, as no identifiable data exists on our servers.
+
+---
+
+## 9. Data Security Commitments
+ShieldOS commits to:
+
+- Zero server-side sensitive data storage  
+- Zero knowledge of user identity  
+- Zero access to encrypted files or messages  
+- 100% non-custodial architecture  
+
+If a breach occurs on our servers, **no user data is exposed**, because none exists.
+
+---
+
+## 10. Changes to This Policy
+We may update this Privacy Policy to reflect improvements in technology or security.  
+All changes will be published transparently via GitHub.
+
+---
+
+## 11. Contact
+For questions, open an issue on our GitHub repository:
+
+**https://github.com/Shield-OS-dev**
+
+---
+
+**ShieldOS — Privacy is the Operating System.**
